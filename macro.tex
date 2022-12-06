@@ -1,0 +1,73 @@
+\usepackage[dvipdfmx]{graphicx,xcolor}% ドライバ指定
+\usepackage[top=30truemm,bottom=30truemm,left=25truemm,right=25truemm]{geometry} % 余白設定
+
+% 画像
+\usepackage{here, subfig}
+\usepackage{docmute} % ファイル分割用
+\usepackage[cc]{titlepic}
+
+% 数式関連
+\usepackage{amsmath,amsfonts,amssymb,mathtools,amsthm}
+\usepackage{bm} % ボールド体のベクトルを出力するときには\vb{a}ではなく\bm{a}としてください。\bmの方が綺麗に出力できる。
+\usepackage{empheq} % 連立方程式をきれいに書いてくれる
+\usepackage{physics} % 微分記号とか
+\usepackage[separate-uncertainty]{siunitx} % SIUNITX
+
+% 数式、図、表番号の変更
+\makeatletter
+\@addtoreset{equation}{section} % 章ごとに番号をリセット
+\@addtoreset{figure}{section}
+\@addtoreset{table}{section}
+\def\theequation{\thesection.\arabic{equation}} % 章.何番目 と変更
+\def\thefigure{\thesection.\arabic{figure}}
+\def\thetable{\thesection.\arabic{table}}
+\makeatother
+
+% -------------------
+% 定理環境付近
+\usepackage{tcolorbox} % 色付きの囲み
+\tcbuselibrary{breakable, skins, theorems}
+\usepackage{ascmac} % 囲み \begin{itembox}ができる。
+
+% ----------
+
+\usepackage{enumitem} % enumium環境いじるために必要
+\renewcommand{\labelenumi}{\theenumi.}
+\renewcommand{\theenumi}{\Alph{enumi}}
+
+% ------------ url関係
+\usepackage{url}
+\usepackage[dvipdfmx]{hyperref}
+\hypersetup{
+	 colorlinks=true,
+	 citecolor=blue,
+	 linkcolor=black,
+	 urlcolor=blue
+}
+\usepackage{pxjahyper}
+% ---------
+
+% 表関連のパッケージ
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{arydshln}% 表で破線を使うため
+\usepackage{multicol}
+% longtableをusepackageする場合は順番が重要らしいです。longtableとarydshlnの順番逆にしたらエラーはく（コンパイルはできるが…）
+
+\renewcommand{\labelitemii}{・}
+
+\usepackage[greek, japanese]{babel}
+\usepackage{teubner}	% 古代(古典)ギリシア語表記指定
+
+
+
+% 大槻使用
+\usepackage{color}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\usepackage{ulem}
+
+% 能崎使用
+%背景
+\usepackage{wallpaper}

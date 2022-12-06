@@ -1,0 +1,38 @@
+\documentclass[a4paper,11pt,uplatex]{jsarticle}
+
+\input{macro.tex}
+\title{CREATE2 成果報告書}
+\date{\today}
+\author{松本侑真\thanks{C-59J PM}\and{大槻渉}\thanks{構造系責任者}
+\and{能崎直紀}\thanks{電装系責任者}\and{佐野泰笙}\thanks{シミュレーション系責任者}
+\and{川北魁人}\thanks{推進系責任者}}
+
+\begin{document}
+% \titlepic{\includegraphics[width=0.76\linewidth]{rogo_name.png}}
+\maketitle
+% \ThisCenterWallPaper{0.8}{pic_summary/create_log.png}%ロゴ入れてみた！外部用では消したほうがよさそう
+% 重なるからいれるならtitlepicで入れたほうがいいかもしれん
+
+
+\begin{abstract}
+    第21回伊豆大島共同打上実験におけるCREATE2の打上結果について、本成果報告書で詳細に述べる。本打上実験では団体初の動翼機構を搭載したC-59Jを打ち上げ、ロール制御ミッションに挑戦した。
+    打上結果としては、パラシュート解放による減速落下に成功し、各基板のセンサによるデータを回収することができた。
+    データ解析によると、制御開始直後から機体のロール角度が目標ロール角度に速やかに収束し、その後の追従精度も十分なものであった。
+    そのためCREATE2のメインミッションである、ロール制御技術を確立させ、ロール制御を成功させるという目標は達成することができた。
+    しかし、本打上実験において新たな課題も見つかった。本報告書では、プロジェクト概要、C-59Jの打上結果とデータ解析、プロジェクトをを通して見つかった課題とその対処方法について記す。
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+
+\input{summary.tex}
+\input{str.tex}
+\input{avi.tex}
+\input{simu.tex}
+\input{gse.tex}
+\input{search.tex}
+\input{matome.tex}
+
+
+
+\end{document}

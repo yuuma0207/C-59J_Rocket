@@ -1,0 +1,57 @@
+\documentclass[a4paper,11pt,titlepage,uplatex]{jsarticle}
+
+% プリアンブルを外部ファイル化しておきました。中身はmacro.texで確認できます。
+
+\input{macro.tex}
+
+\begin{document}
+\section{GSE関連}
+
+\subsection{GSE展開のタイムスケジュール}
+11月13日（2日目）のGSE展開のタイムスケジュールを以下の表\ref{gse_time}に示す。
+\begin{table}[H]
+    \centering
+    \caption{GSE展開スケジュール}
+    \begin{tabular}{cl} \toprule
+        時刻   & 作業内容               \\ \midrule
+        3:30 & 裏砂漠入り口出発           \\
+        4:15 & 射点到着・GSE展開開始       \\
+        4:35 & 配管接続終了・ガスなし電磁弁試験開始 \\
+        4:50 & ガスなし電磁弁動作試験完了      \\
+        5:10 & ガスなしでの点火シーケンス試験開始  \\
+        5:15 & ガスなしでの全ての試験完了      \\
+        5:30 & 窒素ボンベ開栓            \\
+        5:40 & 窒素を通しての電磁弁試験       \\
+        6:00 & 亜酸化窒素ボンベ開栓         \\
+        6:05 & 噴出試験               \\
+        6:15 & 総員退避               \\
+        6:40 & 総員退避解除             \\
+        6:45 & 酸素ボンベ開栓            \\
+        6:50 & 酸素電磁弁・イグナイタ同期試験    \\
+        7:00 & GSE展開完了            \\
+        \bottomrule
+    \end{tabular}
+    \label{gse_time}
+\end{table}
+
+\subsection{各種試験}
+11日の打上の際に発生した中継基板の破壊事故を受けて、12日のGSE展開では通常の試験に加えて破損した部分の重点的な試験を行った。
+以下の表\ref{gse_mokuteki}行った試験の内容と目的、結果を示す。
+
+\begin{table}[H]
+    \centering
+    \caption{GSE展開試験内容}
+    \begin{tabular}{p{90mm}l} \toprule
+        \multicolumn{1}{c}{試験内容}                                        & \multicolumn{1}{c}{結果} \\  \midrule
+        充填時間を30秒間として、充填操作をして電磁弁の動作を確認する                                 & 電磁弁の動作を確認              \\
+        窒素ボンベを開栓し、充填時間を30秒として充填操作を行い電磁弁の動作を確認する。これを3度行った。               & 電磁弁の動作を確認              \\
+        亜酸化窒素ボンベも開栓し、噴出試験を行った。この試験は亜酸化窒素を大気開放する試験のため、電磁弁の操作時間は3秒程度であった。 & 亜酸化窒素の噴出と脱圧を確認         \\
+        \bottomrule
+    \end{tabular}
+    \label{gse_mokuteki}
+\end{table}
+
+\subsection{展開の評価}
+今回のGSE展開は前日の問題の対策を講じたためいつもより展開に時間を要することとなった。しかし、展開の手際は非常に良く、問題となっていた中継基板も問題なく作動したため、非常にスムーズな展開だったといえる。
+
+\end{document}
