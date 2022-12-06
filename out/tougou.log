@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.11.21)  6 DEC 2022 21:01
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.11.21)  7 DEC 2022 02:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1654,17 +1654,14 @@ File: pic_str/s_tyakuti_pic.jpg Graphic file (type bmp)
 File: pic_avi/59_6axis.png Graphic file (type bmp)
 <pic_avi/59_6axis.png>
 [25]
-File: pic_avi/height_data.png Graphic file (type bmp)
-<pic_avi/height_data.png>
-[26]
 File: pic_avi/GPS_data.jpg Graphic file (type bmp)
 <pic_avi/GPS_data.jpg>
-[27]
+[26]
 File: pic_avi/switch_out.jpg Graphic file (type bmp)
 <pic_avi/switch_out.jpg>
 File: pic_avi/switch_in.jpg Graphic file (type bmp)
 <pic_avi/switch_in.jpg>
-[28]
+[27]
 File: pic_sim/acc_no.png Graphic file (type bmp)
 <pic_sim/acc_no.png>
 File: pic_sim/acc_ta.png Graphic file (type bmp)
@@ -1674,58 +1671,58 @@ File: pic_sim/gyr_no.png Graphic file (type bmp)
 File: pic_sim/gyr_ta.png Graphic file (type bmp)
 <pic_sim/gyr_ta.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--768
+Underfull \hbox (badness 10000) in paragraph at lines 734--758
 [][]
  []
 
 File: pic_sim/Ve2.png Graphic file (type bmp)
 <pic_sim/Ve2.png>
-[29]
+[28]
 File: pic_sim/pos2_eh.png Graphic file (type bmp)
 <pic_sim/pos2_eh.png>
 File: pic_sim/pos2_nh.png Graphic file (type bmp)
 <pic_sim/pos2_nh.png>
 File: pic_sim/pos2_en.png Graphic file (type bmp)
 <pic_sim/pos2_en.png>
-[30]
+[29]
 File: pic_sim/pos_h.png Graphic file (type bmp)
 <pic_sim/pos_h.png>
-[31]
+[30]
 File: pic_sim/hight_d.png Graphic file (type bmp)
 <pic_sim/hight_d.png>
-[32]
+[31]
 File: pic_sim/qua_no_s.png Graphic file (type bmp)
 <pic_sim/qua_no_s.png>
 File: pic_sim/qua_ta_s.png Graphic file (type bmp)
 <pic_sim/qua_ta_s.png>
-[33]
+[32]
 File: pic_sim/euler2.png Graphic file (type bmp)
 <pic_sim/euler2.png>
 File: pic_sim/compare_5.jpg Graphic file (type bmp)
 <pic_sim/compare_5.jpg>
 File: pic_sim/compare_8.jpg Graphic file (type bmp)
 <pic_sim/compare_8.jpg>
-[34]
+[33]
 File: pic_sim/mag_fix.png Graphic file (type bmp)
 <pic_sim/mag_fix.png>
 File: pic_sim/mag_norm.png Graphic file (type bmp)
 <pic_sim/mag_norm.png>
-[35]
+[34]
 File: pic_sim/mag_tijou.png Graphic file (type bmp)
 <pic_sim/mag_tijou.png>
-[36]
+[35]
 File: pic_avi/ロール角.png Graphic file (type bmp)
 <pic_avi/ロール角.png>
-[37]
+[36]
 File: pic_avi/動翼角度.png Graphic file (type bmp)
 <pic_avi/動翼角度.png>
 File: pic_avi/動翼角度_切り取り.png Graphic file (type bmp)
 <pic_avi/動翼角度_切り取り.png>
-[38] [39]
+[37] [38]
 File: pic_sim/acc_thrust.png Graphic file (type bmp)
 <pic_sim/acc_thrust.png>
-[40]
-Overfull \hbox (48.98372pt too wide) in paragraph at lines 1093--1111
+[39]
+Overfull \hbox (48.98372pt too wide) in paragraph at lines 1083--1101
 [][] [] 
  []
 
@@ -1735,24 +1732,24 @@ File: pic_sim/pos3_nh.png Graphic file (type bmp)
 <pic_sim/pos3_nh.png>
 File: pic_sim/pos3_en.png Graphic file (type bmp)
 <pic_sim/pos3_en.png>
-[41]
+[40]
 File: pic_sim/pos3_eh_225.png Graphic file (type bmp)
 <pic_sim/pos3_eh_225.png>
 File: pic_sim/pos3_nh_225.png Graphic file (type bmp)
 <pic_sim/pos3_nh_225.png>
 File: pic_sim/pos3_en_225.png Graphic file (type bmp)
 <pic_sim/pos3_en_225.png>
-[42] [43] (out/tougou.aux)
+[41] [42] (out/tougou.aux)
 Package rerunfilecheck Info: File `tougou.out' has not changed.
-(rerunfilecheck)             Checksum: 90F1AED459660E65FC284568894BA471;4130.
+(rerunfilecheck)             Checksum: 25715ADEFB189BE7C9051ACFF8F87F18;4040.
  ) 
 Here is how much of TeX's memory you used:
- 36474 strings out of 475422
- 733931 string characters out of 5788032
- 1091774 words of memory out of 5000000
- 57552 multiletter control sequences out of 15000+600000
+ 36468 strings out of 475422
+ 733782 string characters out of 5788032
+ 1091773 words of memory out of 5000000
+ 57547 multiletter control sequences out of 15000+600000
  525007 words of font info for 142 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  88i,17n,83p,8871b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/tougou.dvi (43 pages, 148788 bytes).
+Output written on out/tougou.dvi (42 pages, 146448 bytes).
