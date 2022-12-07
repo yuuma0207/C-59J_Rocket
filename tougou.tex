@@ -196,7 +196,7 @@ IRISはギリシャ神話に登場する虹の女神IRIS (\foreignlanguage{greek
 	\label{s_real2}
 \end{figure}
 
-本機はロール制御ミッション達成のため、新たに可動フィンを設置していることが特徴である。
+C-59Jはロール制御ミッション達成のため、新たに可動フィンを設置していることが特徴である。
 図\ref{s_gaikei}左側記載の側面図に示すように、固定フィン4枚、可動フィン2枚を搭載している。
 フィンの位相角は、ランチラグを\SI{0}{deg}としたとき、固定用フィンは\SI{45}{deg}、\SI{135}{deg}、\SI{225}{deg}、\SI{315}{deg}であり、可動フィンは\SI{90}{deg}、\SI{270}{deg}となっている。
 これは、可動フィンによって発生した乱流が後方の固定フィンに影響を与えないようにするためである。
@@ -205,24 +205,28 @@ IRISはギリシャ神話に登場する虹の女神IRIS (\foreignlanguage{greek
 \label{douyoku}
 本節では、ロール制御ミッションのために新たに追加した動翼部について記す。
 動翼機構のCAD図と写真、外形の様子をそれぞれ図\ref{s_r_all}、図\ref{s_r_pic}、図\ref{s_r_outer}に示す。
-
 \begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.3]{pic_str/s_roll_all.png}
-	\caption{動翼機構CAD図}
-	\label{s_r_all}
+	\begin{center}
+		\begin{tabular}{cc}
+			\begin{minipage}{0.5\hsize}
+				\centering
+				\includegraphics[scale=0.25]{pic_str/s_roll_all.png}
+				\caption{動翼機構CAD図}
+				\label{s_r_all}
+			\end{minipage}
+			\begin{minipage}{0.5\hsize}
+				\centering
+				\includegraphics[scale=0.47]{pic_str/s_r_pic.png}
+				\caption{動翼機構}
+				\label{s_r_pic}
+			\end{minipage}
+		\end{tabular}
+	\end{center}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale = 0.6]{pic_str/s_r_pic.png}
-	\caption{動翼機構}
-	\label{s_r_pic}
-\end{figure}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.55]{pic_str/s_r_outer_2.png}
+	\includegraphics[scale = 0.5]{pic_str/s_r_outer_2.png}
 	\caption{動翼部外形}
 	\label{s_r_outer}
 \end{figure}
@@ -302,7 +306,7 @@ GPS基板と開放基板はマイコンにSTM32-F446RET6を、ミッション基
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{pic_summary/avi_all.png}
+	\includegraphics[width=0.8\linewidth]{pic_summary/avi_tower.png}
 	\caption{電装系全体の概要}
 	\label{fig:avi_all}
 \end{figure}
@@ -447,8 +451,8 @@ GPS基板と開放基板はマイコンにSTM32-F446RET6を、ミッション基
 \begin{equation}
 	\frac{V(s)}{\theta(s)}=\frac{c}{s^3+as^2+bs}
 \end{equation}
-によりモデル化する。ただし、$V$はモータに印加する電圧、$\theta$は動翼角度である。$a、b、c$は定数であり、システム同定実験に基づき決定する。
-$V$は、モータ電圧決定器がPD制御を用いて決定する。$K_{Pm}$がPゲイン、$K_{Dm}$がDゲインである。動翼角度$\theta$とロールモーメント$M$, 対気速度$v$の関係は、
+によりモデル化する。ただし、$V$はモータに印加する電圧、$\theta$は動翼角度である。$a,\,b,\,c$は定数であり、システム同定実験に基づき決定する。
+$V$は、モータ電圧決定器がPD制御を用いて決定する。$K_{Pm}$がPゲイン、$K_{Dm}$がDゲインである。動翼角度$\theta$とロールモーメント$M$、 対気速度$v$の関係は、
 \begin{equation}
 	M=K\theta v^2
 \end{equation}
@@ -578,7 +582,7 @@ $V$は、モータ電圧決定器がPD制御を用いて決定する。$K_{Pm}$�
 	\caption{GSE試験内容}
 	\begin{tabular}{p{90mm}l} \toprule
 		\multicolumn{1}{c}{試験内容}                                        & \multicolumn{1}{c}{結果} \\  \midrule
-		充填時間を30秒間として、充填操作をして電磁弁の動作を確認する                                 & 電磁弁の動作を確認              \\ \midrule
+		充填時間を30秒として、充填操作をして電磁弁の動作を確認する                                  & 電磁弁の動作を確認              \\ \midrule
 		窒素ボンベを開栓し、充填時間を30秒として充填操作を行い電磁弁の動作を確認する。これを3度行った。               & 電磁弁の動作を確認              \\ \midrule
 		亜酸化窒素ボンベも開栓し、噴出試験を行った。この試験は亜酸化窒素を大気開放する試験のため、電磁弁の操作時間は3秒程度であった。 & 亜酸化窒素の噴出と脱圧を確認         \\
 		\bottomrule
@@ -1072,7 +1076,7 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 図\ref{fig:suiryokurireki}の青線は打上実験時の開放基板から算出した推力を、赤線はミッション基板から算出した推力を、また黄線は2022年7月の燃焼実験時の推力をそれぞれ表している。
 
 燃焼実験時と打上実験時の推力履歴を比較すると、打上実験時の方が作動時間が短く、またそれに伴ってトータルインパルスも小さくなっている。
-この原因としては，燃焼実験と打上実験で供給されている酸化剤の量が異なることが考えられる。燃焼実験では、タンク圧の計測を行っており、圧力センサ取り付け用の流路が存在している。
+この原因としては、燃焼実験と打上実験で供給されている酸化剤の量が異なることが考えられる。燃焼実験では、タンク圧の計測を行っており、圧力センサ取り付け用の流路が存在している。
 打上実験時には、このような流路は存在しないため、この流路の分の酸化剤が供給されておらず、これが作動時間やトータルインパルスに影響を与えたと考えられる。
 
 \subsection{事後シミュレーション}
@@ -1188,7 +1192,7 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 そのため、姿勢制御技術を発展させて二段式ロケットプロジェクトに再挑戦するといった取り組みも行えれば良いと考えている。
 
 \section{謝辞}
-本打上実験の実施に際して、多大なご支援をいただいた株式会社天の技様、工機ホールディングス株式会社様、NEWS COMPANY様、ミスミグループ本社様、東京工業大学工学院機械系同窓会 白星会様、
+本打上実験の実施に際して、多大なご支援をいただいた株式会社天の技様、株式会社ミスミグループ本社様、工機ホールディングス株式会社様、NEWS COMPANY様、東京工業大学工学院機械系同窓会 白星会様、
 CREATE OB・OGの皆様、顧問の中西先生、運営の皆様、大島町役場の皆様をはじめとする多くの方々に厚く御礼申し上げます。
 
 \begin{thebibliography}{99}
