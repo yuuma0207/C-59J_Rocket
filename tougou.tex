@@ -477,9 +477,9 @@ $V$は、モータ電圧決定器がPD制御を用いて決定する。$K_{Pm}$�
 	\caption{打上げに関するデータ}
 	\label{tab:utiage_shogen}
 	\begin{tabular}{lcr}
-		\hline
+		\toprule
 		名称   & 単位                    & \multicolumn{1}{c}{値} \\
-		\hline
+		\midrule
 		日付   &                       & 2022/11/13            \\
 		日時   &                       & 7:47                  \\
 		気温   & \SI{}{\degreeCelsius} & 18.62                 \\
@@ -490,7 +490,7 @@ $V$は、モータ電圧決定器がPD制御を用いて決定する。$K_{Pm}$�
 		磁気偏向 & \SI{}{deg}            & 7.53(西偏)              \\
 		風向   & \SI{}{deg}            & 180                   \\
 		風速   & \SI{}{m/s}            & 3.0                   \\
-		\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
 
@@ -801,11 +801,11 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 	\caption{頂点座標}
 	\label{tab:tyouten_kiban}
 	\begin{tabular}{cccc}
-		\hline
-		      & x (\si{m}) & y (\si{m}) & z (\si{m}) \\\hline
+		\toprule
+		      & x (\si{m}) & y (\si{m}) & z (\si{m}) \\\midrule
 		開放    & 146.2      & $-111.8$   & 344.5      \\
 		ミッション & 155.1      & $-104.7$   & 352.8      \\
-		\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
 
@@ -814,12 +814,12 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 	\caption{ランチクリア速度}
 	\label{tab:launch_sokudo}
 	\begin{tabular}{ccc}
-		\hline
+		\toprule
 		      & 時刻 (\si{s}) & ランチクリア速度 (\si{m/s}) \\
-		\hline
+		\midrule
 		開放    & 0.42        & 23.2                \\
 		ミッション & 0.42        & 22.7                \\
-		\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
 
@@ -873,12 +873,12 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 	\caption{頂点到達時間及び最高到達高度}
 	\label{tab:tyouten}
 	\begin{tabular}{ccc}
-		\hline
-		      & 頂点到達時間 (\si{s}) & 高度 (\si{m}) \\\hline
+		\toprule
+		      & 頂点到達時間 (\si{s}) & 高度 (\si{m}) \\ \midrule
 		開放    & 9.08            & 344.5       \\
 		ミッション & 9.27            & 352.8       \\
 		気圧センサ & 9.48            & 353.0       \\
-		\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
 
@@ -893,7 +893,7 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 ただし、変化を明瞭にするため0.4秒間、データ数にして20個のデータで移動平均を出したものをプロットしている。
 パラシュート開傘時刻が離床から10.2秒後であり、比較的降下速度が安定しているのが\SI{12.5}{s}付近であることから、
 開傘から終端速度到達までに\SI{2.5}{s}ほどかかっていることがうかがえる。
-終端速度に関しては、\SI{15.0}{s}から\SI{30.0}{s}の間に\SI{274.3}{m}降下していることから、終端速度は\SI{13.2}{m/s}であることがわかった。
+終端速度に関しては、\SI{15.0}{s}から\SI{30.0}{s}の間に\SI{198}{m}降下していることから、終端速度は\SI{13.2}{m/s}であることがわかった。
 表\ref{tab:kouryoku_shogen}に記載する諸元を用いて計算した結果、パラシュートの抗力係数は1.27であることがわかった。
 
 \begin{table}[H]
@@ -1039,19 +1039,19 @@ CREATEでは毎回の打ち上げで電池の持ちが問題となっていた�
 	\caption{燃焼諸元}
 	\label{tab:nenshoushogen}
 	\begin{tabular}{lcrrr}
-		\hline
+		\toprule
 		名称        & 単位         & \multicolumn{1}{c}{開放} & \multicolumn{1}{c}{ミッション} & \multicolumn{1}{c}{7月燃焼試験} \\
-		\hline
+		\midrule
 		トータルインパルス & \SI{}{N.s} & 596                    & 581                       & 628                        \\
 		平均推力      & \SI{}{N}   & 273                    & 280                       & 226                        \\
 		比推力       & \SI{}{s}   & 169                    & 165                       & 174                        \\
 		作動時間      & \SI{}{s}   & 2.18                   & 2.08                      & 2.79                       \\
-		\hline
+		\bottomrule
 	\end{tabular}
 \end{table}
 
 \begin{equation}
-	T = a_z\qty(M_0 + \frac{M_1-M_0}{b_t}t)+\frac{1}{2}C_d \rho S V^2
+	T = a_{sz}\qty(M_0 + \frac{M_1-M_0}{b_t}t)+\frac{1}{2}C_d \rho S V^2
 	\label{eq:T}
 \end{equation}
 

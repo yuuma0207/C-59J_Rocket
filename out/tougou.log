@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.11.21)  8 DEC 2022 00:32
+This is e-upTeX, Version 3.141592653-p4.0.0-u1.28-220214-2.6 (utf8.uptex) (TeX Live 2022) (preloaded format=uplatex 2022.11.21)  8 DEC 2022 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1743,17 +1743,17 @@ File: pic_sim/pos3_nh_225.png Graphic file (type bmp)
 <pic_sim/pos3_nh_225.png>
 File: pic_sim/pos3_en_225.png Graphic file (type bmp)
 <pic_sim/pos3_en_225.png>
-[40] [41] [42] (out/tougou.aux)
+[40] [41] [42] [43] (out/tougou.aux)
 Package rerunfilecheck Info: File `tougou.out' has not changed.
 (rerunfilecheck)             Checksum: 25715ADEFB189BE7C9051ACFF8F87F18;4040.
  ) 
 Here is how much of TeX's memory you used:
  36467 strings out of 475422
  733783 string characters out of 5788032
- 1091772 words of memory out of 5000000
+ 1091774 words of memory out of 5000000
  57547 multiletter control sequences out of 15000+600000
  525007 words of font info for 142 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  88i,17n,83p,8871b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/tougou.dvi (42 pages, 146360 bytes).
+Output written on out/tougou.dvi (43 pages, 146744 bytes).
